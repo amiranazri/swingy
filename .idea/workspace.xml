@@ -22,59 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5942efe-118f-48bc-90c0-97557fe53b22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/swingy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/armor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/helm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/heroAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/heroClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/heroDefense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/heroHit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/heroXP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swingy/weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/swingy/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swingy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/swingy/App$TitleScreenHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/swingy/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/swingy/armor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/swingy/helm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/swingy/weapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-swingy.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/swingy.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/swingy-swingy.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/swingy/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/src/main/java/swingy/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/src/test/java/swingy/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/swingy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/classes/swingy/App$TitleScreenHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/classes/swingy/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/surefire-reports/TEST-swingy.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/surefire-reports/swingy.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/swingy-swingy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swingy/target/test-classes/swingy/AppTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e5942efe-118f-48bc-90c0-97557fe53b22" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
