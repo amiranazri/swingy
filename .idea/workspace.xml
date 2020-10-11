@@ -22,7 +22,44 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5942efe-118f-48bc-90c0-97557fe53b22" name="Default Changelist" comment="" />
+    <list default="true" id="e5942efe-118f-48bc-90c0-97557fe53b22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/controls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/helm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/heroClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/villain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Swingy$ChoiceHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Swingy$TitleScreenHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Swingy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Swingy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/writer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/armor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/helm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/heroAttack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/heroClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/heroDefense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/heroHit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/heroXP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swingy/weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swingy/App$ChoiceHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swingy/App$TitleScreenHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swingy/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swingy/armor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swingy/helm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/swingy/weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/swingy/AppTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,14 +99,20 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/view" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swingy.App" />
+    <configuration name="Whimsyshire" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swingy.view.Whimsyshire" />
       <module name="swingy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swingy.*" />
+          <option name="PATTERN" value="swingy.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Whimsyshire" />
       </list>
     </recent_temporary>
   </component>
@@ -124,53 +167,57 @@
       <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state x="457" y="233" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.802@0.23.1440.802" timestamp="1601390121031" />
-    <state width="1398" height="172" key="GridCell.Tab.0.bottom" timestamp="1601489033452">
+    <state x="542" y="138" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602005121298">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="542" y="138" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1602005121298" />
+    <state width="1398" height="171" key="GridCell.Tab.0.bottom" timestamp="1602149107406">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601388169915" />
-    <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.802@0.23.1440.802" timestamp="1601489033452" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602005280950" />
+    <state width="1398" height="171" key="GridCell.Tab.0.bottom/0.23.1440.802@0.23.1440.802" timestamp="1602149107406" />
     <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1601469824557" />
     <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1601456014924" />
-    <state width="1398" height="172" key="GridCell.Tab.0.center" timestamp="1601489033450">
+    <state width="1398" height="171" key="GridCell.Tab.0.center" timestamp="1602149107405">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601388169913" />
-    <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.802@0.23.1440.802" timestamp="1601489033450" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602005280947" />
+    <state width="1398" height="171" key="GridCell.Tab.0.center/0.23.1440.802@0.23.1440.802" timestamp="1602149107405" />
     <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1601469824555" />
     <state width="1398" height="256" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1601456014923" />
-    <state width="1398" height="172" key="GridCell.Tab.0.left" timestamp="1601489033450">
+    <state width="1398" height="171" key="GridCell.Tab.0.left" timestamp="1602149107404">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601388169912" />
-    <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.802@0.23.1440.802" timestamp="1601489033450" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602005280946" />
+    <state width="1398" height="171" key="GridCell.Tab.0.left/0.23.1440.802@0.23.1440.802" timestamp="1602149107404" />
     <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1601469824555" />
     <state width="1398" height="256" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1601456014923" />
-    <state width="1398" height="172" key="GridCell.Tab.0.right" timestamp="1601489033451">
+    <state width="1398" height="171" key="GridCell.Tab.0.right" timestamp="1602149107406">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601388169914" />
-    <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.802@0.23.1440.802" timestamp="1601489033451" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602005280949" />
+    <state width="1398" height="171" key="GridCell.Tab.0.right/0.23.1440.802@0.23.1440.802" timestamp="1602149107406" />
     <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1601469824556" />
     <state width="1398" height="256" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1601456014924" />
-    <state width="1398" height="256" key="GridCell.Tab.1.bottom" timestamp="1601486346499">
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom" timestamp="1601737263381">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.bottom/0.23.1440.802@0.23.1440.802" timestamp="1601486346499" />
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom/0.23.1440.802@0.23.1440.802" timestamp="1601737263381" />
     <state width="1398" height="256" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1601456175452" />
-    <state width="1398" height="256" key="GridCell.Tab.1.center" timestamp="1601486346498">
+    <state width="1398" height="256" key="GridCell.Tab.1.center" timestamp="1601737263379">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.center/0.23.1440.802@0.23.1440.802" timestamp="1601486346498" />
+    <state width="1398" height="256" key="GridCell.Tab.1.center/0.23.1440.802@0.23.1440.802" timestamp="1601737263379" />
     <state width="1398" height="256" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1601456175450" />
-    <state width="1398" height="256" key="GridCell.Tab.1.left" timestamp="1601486346497">
+    <state width="1398" height="256" key="GridCell.Tab.1.left" timestamp="1601737263379">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.left/0.23.1440.802@0.23.1440.802" timestamp="1601486346497" />
+    <state width="1398" height="256" key="GridCell.Tab.1.left/0.23.1440.802@0.23.1440.802" timestamp="1601737263379" />
     <state width="1398" height="256" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1601456175449" />
-    <state width="1398" height="256" key="GridCell.Tab.1.right" timestamp="1601486346498">
+    <state width="1398" height="256" key="GridCell.Tab.1.right" timestamp="1601737263380">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.right/0.23.1440.802@0.23.1440.802" timestamp="1601486346498" />
+    <state width="1398" height="256" key="GridCell.Tab.1.right/0.23.1440.802@0.23.1440.802" timestamp="1601737263380" />
     <state width="1398" height="256" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1601456175451" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1601389058572">
       <screen x="0" y="23" width="1440" height="802" />
@@ -180,10 +227,14 @@
       <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state x="282" y="160" width="875" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.802@0.23.1440.802" timestamp="1601458383949" />
-    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1601367647208">
+    <state x="384" y="187" key="run.anything.popup" timestamp="1602266455528">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state x="384" y="187" key="run.anything.popup/0.23.1440.802@0.23.1440.802" timestamp="1602266455528" />
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1601838290942">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601367647208" />
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601838290942" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/swangy$App.ic" NAME="App Coverage Results" MODIFIED="1601455972385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
