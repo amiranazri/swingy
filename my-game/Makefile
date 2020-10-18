@@ -14,6 +14,7 @@ clean:
 	rm -Rf .DS_Store
 	rm -Rf .vscode
 	rm -Rf bin
+	rm -rf database.txt
 
 fclean: clean
 	mvn clean

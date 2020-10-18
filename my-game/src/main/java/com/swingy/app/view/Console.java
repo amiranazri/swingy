@@ -150,7 +150,9 @@ public class Console
                         if (input.equals("Y")) {
                             Writer.storeMessage(health.toString() + "\n");
                             Writer.storeMessage(attackDamage.toString() + "\n");
-                            Writer.storeMessage(numHealthPotions.toString() + "\n");                            Writer.writeToFile();
+                            Writer.storeMessage(numHealthPotions.toString() + "\n");
+                            Writer.writeToFile();
+                            break;
                         }
                         else if (input.equals("N")) {
                             System.out.println("Charlie will miss you...");
