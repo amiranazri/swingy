@@ -26,8 +26,8 @@ public class Console
 
         boolean running = true;
 
-        System.out.println("Welcome to Whimsyshire");
-        System.out.println("What would you like to do?\n" + "1)LOAD GAME\n" + "2)NEW GAME\n");
+        System.out.println("\nWelcome to Whimsyshire");
+        System.out.println("What would you like to do?\n\n" + "1)LOAD GAME\n" + "2)NEW GAME\n");
 
         String input1 = in.nextLine();
         
@@ -37,12 +37,15 @@ public class Console
                 ArrayList<String> playerData = new ArrayList<String>();
                 File file = new File("database.txt");
                 Scanner scan = new Scanner(file); 
-                String str = null;
-                String[] arrayData;
+                // String str = null;
+                int[] arrayData;
+                arrayData = new int[3];
+                int i = 0;
     
                 while (scan.hasNextLine()){
-                    str = scan.nextLine();
-                    arrayData = str.split(" ");
+                    arrayData[i] = Integer.parseInt(scan.nextLine());
+                    System.out.println(arrayData[i]);
+                    i++;
                 }
             }
             catch(FileNotFoundException exception) {
@@ -145,9 +148,9 @@ public class Console
                         System.out.println("Would you like to save your game? Y/N");
                         input = in.nextLine();
                         if (input.equals("Y")) {
-                            Writer.storeMessage("HP: " + health.toString() + "\n");
-                            Writer.storeMessage("Attack: " + attackDamage.toString() + "\n");
-                            Writer.storeMessage("Number of Health Potions: " + numHealthPotions.toString() + "\n");                            Writer.writeToFile();
+                            Writer.storeMessage(health.toString() + "\n");
+                            Writer.storeMessage(attackDamage.toString() + "\n");
+                            Writer.storeMessage(numHealthPotions.toString() + "\n");                            Writer.writeToFile();
                         }
                         else if (input.equals("N")) {
                             System.out.println("Charlie will miss you...");
