@@ -1,0 +1,3 @@
+HP: 58
+Attack: 50
+Number of Health Potions: 4
