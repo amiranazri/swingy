@@ -152,6 +152,7 @@ public class Console
                             Writer.storeMessage(attackDamage.toString() + "\n");
                             Writer.storeMessage(numHealthPotions.toString() + "\n");
                             Writer.writeToFile();
+                            System.out.println("\nCharlie will miss you...");
                             break;
                         }
                         else if (input.equals("N")) {

@@ -17,15 +17,14 @@ public abstract class Writer {
 
     public static void writeToFile() {
         try{
-        writer = new BufferedWriter(new FileWriter("database.txt"));
-
+            writer = new BufferedWriter(new FileWriter("database.txt", false));
         for (int i = 0; i < fileContent.size(); i++)
         writer.write(fileContent.get(i));
         writer.close();
     }
         catch (Exception exception)
         {
-            System.out.println("Error: problem while accessing save file [Writer.java].");
+            System.out.println("Error: problem while accessing save file 'Writer.java'.");
         }
     }
 }
