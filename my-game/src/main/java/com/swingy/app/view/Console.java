@@ -106,6 +106,7 @@ public class Console
                 
                 if (input.equals("1")) {
                     System.out.println("You venture deeper into the realm of Whimsyshire...");
+                    continue;
                 }
                 else if (input.equals("2")) {
                     System.out.println("Would you like to save your game? Y/N");
