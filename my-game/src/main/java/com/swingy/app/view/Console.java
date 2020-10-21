@@ -6,7 +6,6 @@ import java.io.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-
 public class Console
 {
 	public static void main(String[] args) {
@@ -44,11 +43,17 @@ public class Console
         }
         else if (input1.equals("2")) {
             System.out.println("Please enter a name for your Hero: \n");
-            @NotNull(message = "Name cannot be empty")
-            @Size(min = 4, max = 20, message = "Name should be between 4 and 20 characters long.")
-            final String name;
+            @NotNull(message = "Name cannot be empty.\n")
+            String name;
             name = in.nextLine();
-            Game.game(health, running, attackDamage, numHealthPotions);
+            if (name.isEmpty()) {
+                System.out.println("Name cannot be empty.\n");
+                System.out.println("Please enter a name for your Hero: \n");
+                name = in.nextLine();
+            }
+            else {
+                Game.game(health, running, attackDamage, numHealthPotions);
+            }
         }
     }
 }
